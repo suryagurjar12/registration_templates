@@ -8,7 +8,7 @@ def register(request):
 
 
 def registrationdata(request):
-    # return ()
-    print (request.method)
-    print (request.POST)
+    return HttpResponse(request,'registrationdata')  #server to views data 
+    # print (request.method)
+    # print (request.POST)
     
